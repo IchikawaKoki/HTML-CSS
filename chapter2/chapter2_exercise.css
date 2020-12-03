@@ -1,0 +1,21 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+header {
+  padding: 30px 5px 10px;
+}
+h1 {
+  color: orange;
+}
+.service-content {
+  padding: 10px 5px;
+}
+.service-content:first-child {
+  padding-top: 0;
+}
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
