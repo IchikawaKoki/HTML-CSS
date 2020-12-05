@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-visual {
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 400px;
+}
+h1 {
+  padding: 20px;
+}
+main {
+  width: 840px;
+  margin: 50px auto;
+}
+.wcp-course {
+  padding: 30px 0;
+  border-bottom: 1px solid #d1d1d1;
+}
+.wcp-course:first-child {
+  padding-top: 0;
+}
