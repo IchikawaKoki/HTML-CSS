@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #ec725f;
+  width: 100%;
+}
+.container {
+  height: 70px;
+  width: 1024px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+}
+nav {
+  position: absolute;
+  right: 0;
+}
+.list {
+  text-align: center;
+}
+.list-item {
+  display: inline-block;
+  width: 120px;
+  line-height: 70px;
+  color: #fafafa;
+  padding: 0 30px;
+  list-style: none;
+  font-size: 16px;
+}
+img {
+  height: 100%;
+}
+.main-visual {
+  width: 100%;
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-position: center;
+  background-size: cover;
+}
+.main-visual-text-content {
+  padding-top: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.main-visual-title {
+  font-size: 64px;
+  color: #fafafa;
+}
+.main-visual-text {
+  padding-top: 10px;
+  font-size: 20px;
+  color: #fafafa;
+}
+.portfolio {
+  background-color: #eceff1;
+}
+.portfolio-content {
+  width: 920px;
+  padding: 90px 0;
+  margin: 0 auto;
+}
+.text-content {
+  text-align: center;
+}
+.title {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+.bar {
+  margin: 0 auto;
+  height: 3px;
+  width: 70px;
+  background-color: #ec715f;
+}
+.text {
+  font-size: 16px;
+  padding: 30px 0;
+}
+.portfolio-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-image {
+  width: 300px;
+  height: 250px;
+  margin: 0 10px 10px 0;
+  background-position: center;
+  background-size: cover;
+}
+.portfolio-image:nth-child(3n) {
+  margin-right: 0;
+}
+.portfolio-image:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+.portfolio-image:first-child {
+  background-image: url(img/sketch.jpg);
+}
+.portfolio-image:nth-child(2) {
+  background-image: url(img/websuku.png);
+}
+.portfolio-image:nth-child(3) {
+  background-image: url(img/write.jpg);
+}
+.portfolio-image:nth-child(4) {
+  background-image: url(img/webcamp.png);
+}
+.portfolio-image:nth-child(5) {
+  background-image: url(img/talk.jpg);
+}
+.portfolio-image:last-child {
+  background-image: url(img/webcamp-mother.png);
+}
+.feature-content {
+  width: 980px;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+.strength-content {
+  display: flex;
+  justify-content: center;
+}
+.strength {
+  width: 320px;
+  margin-right: 10px;
+}
+.strength.last-child {
+  margin-right: 0;
+}
+.strength-title {
+  font-size: 20px;
+  padding: 10px 0;
+}
+.strength-text {
+  font-size: 16px;
+}
+.icon {
+  font-size: 60px;
+}
+.icon-title {
+  text-align: center;
+}
+.profile {
+  background-color: #eceff1;
+}
+.profile-content {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+.profile-main {
+  display: flex;
+  justify-content: center;
+}
+.profile-main-image {
+  width: 512px;
+  text-align: center;
+}
+.my-icon {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.profile-main-texts {
+  width: 512px;
+}
+.profile-name-title {
+  font-size: 20px;
+}
+.profile-name-text {
+  font-size: 16px;
+  padding: 5px 0 20px;
+}
+.profile-name-text:last-child {
+  padding-bottom: 0;
+}
+.contact-content {
+  width: 800px;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+.contact-main {
+  display: flex;
+  justify-content: center;
+}
+.contact-address {
+  width: 400px;
+}
+.contact-title {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.contact-text {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+.contact-text:last-child {
+  padding-bottom: 0;
+}
+.contact-sns {
+  width: 400px;
+}
+.contact-addresses {
+  width: 130px;
+  margin: 0 auto;
+}
+.sns-icon {
+  font-size: 50px;
+  margin-right: 20px;
+}
+.sns-icon:last-child {
+  margin-right: 0;
+}
+.contact-snses {
+  width: 190px;
+  margin: 0 auto;
+}
+footer {
+  height: 60px;
+  background-color: #ec715f;
+  text-align: center;
+}
+.footer-text {
+  line-height: 60px;
+  font-size: 16px;
+  color: #fafafa;
+}
